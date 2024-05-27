@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/emp_crud?useSSl=false
+    username: root
+    password: root
+#JPA settings
+  jpa:
+    hibernate:
+      ddl-auto: create
+      open-in-view: false
+
+      dialect: org.hibernate.dialect.MySQL8Dialect
